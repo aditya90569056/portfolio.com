@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "freight big pro";
+}
+.html,body{
+    width: 100%;
+    height: 100%;
+}
+.nav
+{
+    position: absolute;
+    width: 100%;
+    padding: 30px 50px;
+    /* background-color: red; */
+    z-index: 10;
+}
+.nav svg path{
+    fill: #000;
+}
+
+.loader{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 99;
+    /* display: none; */
+}
+.loader video{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /*object-fit: cover;*/
+    z-index: 7;
+}
+.yellow1
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #F5E41B;
+    z-index: 7;
+}
+.yellow2
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #F5E41B;
+    z-index: 8;
+}
+.loader > h1{
+    font-weight: 100;
+    font-size: 6.9vw;
+    line-height: 5.5vw;
+    letter-spacing: 3px;
+    position: relative;
+    z-index: 9;
+}
+.page1{
+    width: 100%;
+    height: 100vh;
+    background-color: #F5E41B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.page1 > h1{
+    font-weight: 100;
+    font-size: 6.9vw;
+    line-height: 5.5vw;
+    letter-spacing: 3px;
+}
+.page2{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+   background-image: url(https://www.superkicks.in/cdn/shop/products/1-3_c4a86ac6-b85f-46f2-96fa-cffc3ce36e53.jpg?v=1681121167&width=1946);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   
+}
+.page3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: rgb(31, 31, 31);
+
+}
+.cover
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(115, 96, 106, 0.2);
+}
+.page3 video{
+    width: 100%;
+    height: 90%;
+    margin-top: 50px;
+}
+.footer
+{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
