@@ -1,5 +1,5 @@
 function loading(){
-    var tl = gsap.timeline()
+    const tl = gsap.timeline()
 
 tl.to(".yellow1",{
     top:"-100%",
@@ -25,7 +25,7 @@ tl.to(".loader",{
 
 }
 loading()
-const scroll = new LocomotiveScroll({
+const _scroll = new LocomotiveScroll({
     el: document.querySelector('.main'),
     smooth: true
 });
